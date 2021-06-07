@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="headers\mono">
+      <UniqueIdentifier>{bec17fcb-2ce8-4805-93f1-152b0e1d2c25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\math">
+      <UniqueIdentifier>{6cc80f6c-6b5e-443c-9c7b-2eb7ea33776c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\memory">
+      <UniqueIdentifier>{c90167b0-113a-44de-b207-ff6393cb585b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\sdk">
+      <UniqueIdentifier>{e579959d-0074-4f6f-b276-e3ff397e9930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\sdk\game">
+      <UniqueIdentifier>{d8849481-a3e7-45ac-9e01-32eb18e68ad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\sdk\engine">
+      <UniqueIdentifier>{f01539f1-21c5-4385-96eb-d22667491ae6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mono_lib.hpp">
+      <Filter>headers\mono</Filter>
+    </ClInclude>
+    <ClInclude Include="mono_typedefs.hpp">
+      <Filter>headers\mono</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="process.hpp">
+      <Filter>headers\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="c_player.hpp">
+      <Filter>headers\sdk\game</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_sdk.hpp">
+      <Filter>headers\sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="c_game_world.hpp">
+      <Filter>headers\sdk\game</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry.hpp">
+      <Filter>headers\math</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
